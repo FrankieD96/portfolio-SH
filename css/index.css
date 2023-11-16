@@ -3,3 +3,35 @@
 *::after {
   box-sizing: border-box;
 }
+
+body {
+  background-color: #E2D0C1;
+}
+
+.navbar {
+  font-family: 'Urbanist', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  border-bottom: solid 1px black;
+  font-size: 27px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  transition: all 0.75s;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #4B4F58;
+}
